@@ -1,0 +1,36 @@
+.cartBlock {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .block {
+    display: flex;
+    justify-content: space-between;
+
+ .length{
+   position: absolute;
+   z-index: 2;
+   border-radius: 50%;
+   width: 20px;
+   height: 20px;
+   background-color: #61dafb;
+   text-align: center;
+   color: #1d1a1a;
+   font-weight: bold;
+   cursor: pointer;
+   left: 25px;
+ }
+    .icon {
+      cursor: pointer;
+      position: relative;
+      color: white;
+      padding-bottom: 50px;
+    }
+
+    .price {
+      margin-left: 35px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}

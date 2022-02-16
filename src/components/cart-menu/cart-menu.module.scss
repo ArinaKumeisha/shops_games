@@ -1,0 +1,22 @@
+.container {
+  position: absolute;
+  left: -300px;
+  top: 30px;
+  padding: 10px 30px;
+  background-color: #0e4b92;
+  width: 400px;
+  z-index: 2;
+  border-radius: 20px;
+
+  .titlePrise {
+
+  }
+
+  .cost {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border-top: 1px solid black;
+    padding: 20px;
+  }
+}

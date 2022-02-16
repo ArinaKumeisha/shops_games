@@ -1,0 +1,9 @@
+.itemGenre {
+  padding: 10px;
+  background-color: #1d1a1a;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.itemGenre:not(:last-child){
+  margin-right:7px;
+}
