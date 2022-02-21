@@ -28,7 +28,6 @@ export const CartBlock = () => {
                 <span className={style.price}>{totalPrice > 0 ? totalPrice : ''} </span>
             </div>
             {isCartMenuVisible ? <CartMenu items={items} onclick={onclickHandler}/> : ''}
-
         </div>
     );
 };

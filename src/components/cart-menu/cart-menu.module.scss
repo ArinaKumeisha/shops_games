@@ -4,17 +4,18 @@
   top: 30px;
   padding: 10px 30px;
   background-color: #0e4b92;
-  width: 400px;
+  width: 350px;
   z-index: 2;
   border-radius: 20px;
+  @media (max-width: 410px) {
+    left: -240px;
+    width: 310px;
 
-  .titlePrise {
 
   }
-
   .cost {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 30px;
     border-top: 1px solid black;
     padding: 20px;
