@@ -2,7 +2,8 @@ import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import {Header} from './components/header'
 import {HomePage} from './Pages/home-page'
-import {CartBlock} from "./components/cart-block";
+import {GamePage} from "./components/game-page";
+import {OrderPage} from "./components/order-page";
 
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
             <Header/>
             <Routes>
                 <Route path={'/'} element={<HomePage/>}/>
-                {/*<Route path={'/'} element={<CartBlock/>}/>*/}
+                <Route path={'/homePage/:title'} element={<GamePage/>}/>
+                <Route path={'/order'} element={<OrderPage/>}/>
             </Routes>
         </div>
     );

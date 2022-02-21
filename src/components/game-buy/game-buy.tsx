@@ -24,7 +24,7 @@ export const GameBuy: React.FC<PropsType> = props => {
     }
 
     return (
-        <div className={style.container}>
+        <div>
             <span className={style.price}>{game.price}</span>
             <button onClick={handler} className={isNewItem ? styles.btnTrue : styles.btn}>
                 {isNewItem ? 'удалить из корзины' : 'в корзину'}

@@ -4,25 +4,16 @@
   flex-wrap: wrap;
   text-decoration: none;
   cursor: pointer;
+  width: 350px;
+  min-height: 350px;
+  background-color: #1f1f36;
+  border-radius: 15px;
+  margin: 15px;
+  align-items: center;
+  text-align: center;
+  position: relative;
 
 
-  .details {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    min-height: 350px;
-    background-color: #1f1f36;
-    border-radius: 15px;
-    margin: 15px;
-    align-items: center;
-    text-align: center;
-    position: relative;
-
-    .image {
-      width: 100%;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-    }
 
     .title {
       margin: 15px 0 15px 0;
@@ -47,4 +38,3 @@
       position: absolute;
     }
   }
-}

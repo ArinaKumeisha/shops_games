@@ -17,6 +17,7 @@ code {
   padding: 0 40px;
   margin: 0 auto;
   max-width: 1180px;
+  position: relative;
 }
 a{
   color: white;

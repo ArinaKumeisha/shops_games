@@ -8,9 +8,10 @@ import CartItem from "../cart-item/cart-item";
 
 type PropsType = {
     items: GamesType[]
+    onclick: () => void
 }
 export const CartMenu = (props: PropsType) => {
-    const {items} = props;
+    const {items, onclick} = props;
     return (
         <div className={style.container}>
 
@@ -30,7 +31,7 @@ export const CartMenu = (props: PropsType) => {
                             <span>Итого: </span>
                             <span>{sumFun(items)} </span>
                         </div>
-                        <button onClick={() => null} className={styles.btn}>Оформить заказ</button>
+                        <button onClick={onclick} className={styles.btn}>Оформить заказ</button>
                     </div>
                     : null
             }
