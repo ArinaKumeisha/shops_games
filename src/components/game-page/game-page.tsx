@@ -16,11 +16,10 @@ export const GamePage = () => {
             <div className={style.content}>
                 <div className={style.leftContent}>
                     <iframe
-
-                            src={game.video}
-                            title={'Youtube video'}
-                    frameBorder={'0'}
-                            className={style.iframe}>
+                        src={game.video}
+                        title={'Youtube video'}
+                        frameBorder={'0'}
+                        className={style.iframe}>
                     </iframe>
                 </div>
 
@@ -28,10 +27,10 @@ export const GamePage = () => {
                     <GameCover game={game}/>
                     <p>{game.description}</p>
                     {game.genres.map(genre =>
-                        <Genre key={ genre} genre={genre}/>)}
+                        <Genre key={genre} genre={genre}/>)}
 
                     <div className={style.buyPageGame}>
-                    <GameBuy game={game}/>
+                        <GameBuy game={game}/>
                     </div>
                 </div>
             </div>
