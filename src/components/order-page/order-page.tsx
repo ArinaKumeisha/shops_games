@@ -15,6 +15,7 @@ export const OrderPage = () => {
 
     return (
         <div className={style.container}>
+
             <div className={style.one}>
 
                 {items.map(item => {
@@ -33,14 +34,14 @@ export const OrderPage = () => {
                         </div>
                     )
                 })}
-            </div>
-            <div className={style.two}>
 
                 <div className={style.amount}>
                     {items.length === 0 ? <h2>Ваша Корзина пуста</h2> :
                         <h2>Итого {items.length} товара (ов) на сумму {sumFun(items)}руб</h2>}
                 </div>
             </div>
+
+
         </div>
     );
 };

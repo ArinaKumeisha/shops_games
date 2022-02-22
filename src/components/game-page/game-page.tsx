@@ -15,11 +15,12 @@ export const GamePage = () => {
             <h2 className={style.main}>{game.title}</h2>
             <div className={style.content}>
                 <div className={style.leftContent}>
-                    <iframe width={'70%'}
-                            height={'400px'}
+                    <iframe
+
                             src={game.video}
                             title={'Youtube video'}
-                    frameBorder={'0'}>
+                    frameBorder={'0'}
+                            className={style.iframe}>
                     </iframe>
                 </div>
 

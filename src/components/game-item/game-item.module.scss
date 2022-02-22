@@ -12,8 +12,14 @@
   align-items: center;
   text-align: center;
   position: relative;
+  flex-direction: column;
 
-
+  //@media (max-width: 370px) {
+  //  width: 300px;
+  //}
+  //@media(max-width: 320px) {
+  //  width: 270px;
+  //}
 
     .title {
       margin: 15px 0 15px 0;
@@ -27,9 +33,11 @@
     }
 
     .genre {
-      margin-top: 15px;
-
-
+      margin: 35px 5px;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
     }
 
     .buy {

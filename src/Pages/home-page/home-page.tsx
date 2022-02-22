@@ -15,7 +15,7 @@ const GAMES: GamesType[] = [
     {
         image: '/photo/forza_5.jpeg',
         title: 'Forza Horizon 5',
-        genres: ['Гонки', 'Симулятор', 'Открытый мир'],
+        genres: ['Гонки', 'Симулятор'],
         price: 2343,
         video: 'https://www.youtube.com/embed/FYH9n37B7Yw',
         id: 1,
@@ -24,7 +24,7 @@ const GAMES: GamesType[] = [
     {
         image: '/photo/battlefield_2042.jpg',
         title: 'Battlefield 2042',
-        genres: ['Экшен', 'Шутер', 'Война'],
+        genres: [ 'Шутер', 'Война'],
         video: 'https://www.youtube.com/embed/ASzOzrB-a9E',
         price: 2433,
         id: 2,
@@ -60,7 +60,7 @@ const GAMES: GamesType[] = [
     {
         image: '/photo/assassins_creed_valhalla.png',
         title: 'Assassin’s Creed Valhalla',
-        genres: ['Паркур', 'РПГ', 'Открытый мир'],
+        genres: ['Паркур', 'Открытый мир'],
         video: 'https://www.youtube.com/embed/ssrNcwxALS4',
         price: 2000,
         id: 6,
