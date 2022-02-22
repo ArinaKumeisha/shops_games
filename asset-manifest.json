@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shops_games/static/css/main.ac5ed885.css",
+    "main.css": "/shops_games/static/css/main.935795bb.css",
     "main.js": "/shops_games/static/js/main.3c482d53.js",
     "static/js/787.a65b4cd7.chunk.js": "/shops_games/static/js/787.a65b4cd7.chunk.js",
     "static/media/forza_5.jpeg": "/shops_games/static/media/forza_5.0e2dcfe9e5adfce4c481.jpeg",
@@ -10,12 +10,12 @@
     "static/media/battlefield_2042.jpg": "/shops_games/static/media/battlefield_2042.4a9369f796cd5226050f.jpg",
     "static/media/rainbow_siege.jpeg": "/shops_games/static/media/rainbow_siege.7de9ce326c092b7bbc21.jpeg",
     "index.html": "/shops_games/index.html",
-    "main.ac5ed885.css.map": "/shops_games/static/css/main.ac5ed885.css.map",
+    "main.935795bb.css.map": "/shops_games/static/css/main.935795bb.css.map",
     "main.3c482d53.js.map": "/shops_games/static/js/main.3c482d53.js.map",
     "787.a65b4cd7.chunk.js.map": "/shops_games/static/js/787.a65b4cd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac5ed885.css",
+    "static/css/main.935795bb.css",
     "static/js/main.3c482d53.js"
   ]
 }
